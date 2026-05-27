@@ -85,7 +85,27 @@ function App() {
   </div>
 </section><section id="about" className="band"><div><p className="over">Про адвоката</p><h2>Кібальник Володимир Павлович</h2><p>Адвокат, який працює з реальними судовими спорами, кримінальними провадженнями, військовими питаннями, адміністративними позовами та процесуальними документами.</p><p>Основний принцип роботи — не формальність, а результат: сильний документ, чіткі вимоги, зрозуміла позиція та підготовка до кожного можливого заперечення опонента.</p></div><div className="darkCard"><h3>Напрямки роботи</h3>{["Суди першої інстанції та апеляція","Скарги на бездіяльність органів влади","Захист військовослужбовців","Правова допомога потерпілим і обвинуваченим","Підготовка заяв, запитів, клопотань і промов"].map(x => <p className="line" key={x}><ArrowRight/> {x}</p>)}</div></section>
 
-      <section id="youtube" className="section"><div className="youtube"><PlayCircle  size={52}/><h2>Канал «Захисти себе сам»</h2><p>Канал про те, як людині захистити себе, розуміти свої права, не боятися суду, поліції, ТЦК та органів влади, а також грамотно реагувати на незаконні дії.</p><a href="https://www.youtube.com/" target="_blank">Перейти на YouTube <ArrowRight size={18}/></a></div></section>
+     <section className="section">
+  <p className="over">Відгуки</p>
+  <h2>Що кажуть клієнти</h2>
+
+  <div className="grid">
+    <article className="card">
+      <h3>Швидко і по суті</h3>
+      <p>Отримав чітку правову позицію та зрозумів, які документи потрібно подати до суду.</p>
+    </article>
+
+    <article className="card">
+      <h3>Сильні документи</h3>
+      <p>Адвокат підготував заяви та клопотання з посиланнями на закон і судову практику.</p>
+    </article>
+
+    <article className="card">
+      <h3>Допомога у військовій справі</h3>
+      <p>Було детально роз’яснено порядок дій щодо ТЦК, ВЛК та подання рапорту.</p>
+    </article>
+  </div>
+</section> <section id="youtube" className="section"><div className="youtube"><PlayCircle  size={52}/><h2>Канал «Захисти себе сам»</h2><p>Канал про те, як людині захистити себе, розуміти свої права, не боятися суду, поліції, ТЦК та органів влади, а також грамотно реагувати на незаконні дії.</p><a href="https://www.youtube.com/" target="_blank">Перейти на YouTube <ArrowRight size={18}/></a></div></section>
 
       <section id="contacts" className="contacts"><div><p className="over">Контакти</p><h2>Звернутися по правову допомогу</h2><p>Опишіть ситуацію коротко: хто звертається, яка справа, який суд або орган, які документи є, який результат потрібен.</p></div><div className="contactList"><a href="tel:+380682307757"><Phone/> <span><small>Телефон</small><b>068 230 77 57</b></span></a><a href="mailto:kibalnykvova@gmail.com"><Mail/> <span><small>E-mail</small><b>kibalnykvova@gmail.com</b></span></a><div><MapPin/> <span><small>Робоче місце адвоката</small><b>Волинська область, Володимирський район, с. Заріччя</b></span></div><a href="https://t.me/" target="_blank"><MessageCircle/> <span><small>Telegram</small><b>Написати повідомлення</b></span></a></div></section>
     </main>
