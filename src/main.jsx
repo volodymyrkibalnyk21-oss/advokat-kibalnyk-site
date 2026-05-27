@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { motion } from "framer-motion";
 import { ShieldCheck, Scale, FileText, Phone, Mail, MapPin, PlayCircle, MessageCircle, Gavel, CheckCircle2, Menu, X, ArrowRight } from "lucide-react";
 import "./style.css";
-
+import photo from "../IMG_6700.JPG";
 const services = [
   ["Захист у кримінальних провадженнях", "Захист підозрюваних, обвинувачених, представництво потерпілих, скарги слідчому судді, клопотання та участь у судових засіданнях."],
   ["Військове право та ТЦК", "Рапорти на звільнення, ВЛК, оскарження бездіяльності, адвокатські запити, допомога військовослужбовцям та членам їх сімей."],
@@ -34,6 +34,7 @@ function App() {
           <div className="actions"><a className="primary" href="tel:+380682307757"><Phone/>068 230 77 57</a><a className="secondary" href="mailto:kibalnykvova@gmail.com"><Mail/>Написати на пошту</a></div>
         </motion.div>
         <motion.div className="heroCard" initial={{opacity:0,scale:.96}} animate={{opacity:1,scale:1}} transition={{duration:.7}}>
+          <img src={photo} alt="Адвокат Кібальник" className="heroPhoto" />
           <Gavel className="gold" size={52}/><h2>Правова позиція має бути сильною з першого документа</h2>
           <p>У суді важливо не просто щось написати, а правильно поставити питання, послатися на закон, практику судів і змусити іншу сторону відповідати по суті.</p>
           {["Чітка правова позиція без зайвої води", "Документи з посиланням на закон і судову практику", "Жорсткий захист інтересів клієнта", "Пояснення простими словами, що робити далі"].map(x => <div className="check" key={x}><CheckCircle2/> {x}</div>)}
