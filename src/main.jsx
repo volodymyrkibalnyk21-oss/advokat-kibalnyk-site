@@ -31,7 +31,19 @@ function App() {
           <p className="badge"><ShieldCheck size={17}/> Адвокатська допомога у складних справах</p>
           <h1>Адвокат Кібальник Володимир Павлович</h1>
           <p className="lead">Захист у суді, підготовка сильних процесуальних документів, допомога військовослужбовцям, робота з ТЦК, поліцією, прокуратурою та органами влади.</p>
-          <div className="actions"><a className="primary" href="tel:+380682307757"><Phone/>068 230 77 57</a><a className="secondary" href="mailto:kibalnykvova@gmail.com"><Mail/>Написати на пошту</a></div>
+         <div className="actions">
+  <a className="primary" href="tel:+380682307757">
+    <Phone/>068 230 77 57
+  </a>
+
+  <a className="secondary" href="mailto:kibalnykvova@gmail.com">
+    <Mail/>Написати на пошту
+  </a>
+
+  <a className="secondary" href="https://t.me/advokat_kibalnyk" target="_blank" rel="noreferrer">
+    <MessageCircle/>Telegram
+  </a>
+</div>
         </motion.div>
         <motion.div className="heroCard" initial={{opacity:0,scale:.96}} animate={{opacity:1,scale:1}} transition={{duration:.7}}>
           <img src={photo} alt="Адвокат Кібальник" className="heroPhoto" />
