@@ -12,7 +12,48 @@ const services = [
   ["Адвокатські запити та скарги", "Підготовка сильних адвокатських запитів, скарг до прокуратури, поліції, Міноборони, Уповноваженого ВРУ та інших органів."],
   ["Документи до суду", "Позовні заяви, відзиви, відповіді на відзиви, заперечення, клопотання, промови, судові дебати та правові позиції."],
 ];
+function MilitaryPage() {
+  return <div className="site">
+    <header className="header">
+      <a href="/" className="brand">
+        <span className="logo"><Scale size={25}/></span>
+        <span><b>Адвокат Кібальник</b><small>Захисти себе сам</small></span>
+      </a>
+      <a className="call" href="tel:+380682307757">Подзвонити</a>
+    </header>
 
+    <main className="section">
+      <p className="over">Військовий адвокат</p>
+      <h1>Військовий адвокат в Україні</h1>
+
+      <p className="muted">
+        Адвокат Кібальник Володимир Павлович надає правову допомогу військовослужбовцям,
+        ветеранам, мобілізованим громадянам, членам сімей військових та сім'ям загиблих
+        Захисників України по всій території України.
+      </p>
+
+      <h2>Послуги військового адвоката</h2>
+
+      <div className="grid">
+        <article className="card"><h3>Адвокат по ТЦК</h3><p>Оскарження дій ТЦК, штрафів, бездіяльності та незаконних рішень.</p></article>
+        <article className="card"><h3>Оскарження ВЛК</h3><p>Скарги на висновки ВЛК, повторний огляд, судове оскарження.</p></article>
+        <article className="card"><h3>Звільнення із ЗСУ</h3><p>Рапорти, сімейні обставини, стан здоров'я, супровід процедури.</p></article>
+        <article className="card"><h3>Виплати військовим</h3><p>Допомога з виплатами військовим та сім'ям загиблих військовослужбовців.</p></article>
+      </div>
+
+      <p className="muted">
+        Робота здійснюється дистанційно та з особистими виїздами до Києва, Волині,
+        Черкаської області, Львова, Рівного, Житомира, Сум, Охтирки та інших регіонів України.
+      </p>
+
+      <div className="actions">
+        <a className="primary" href="tel:+380682307757"><Phone/>068 230 77 57</a>
+        <a className="secondary" href="https://t.me/advokat_kibalnyk" target="_blank" rel="noreferrer"><MessageCircle/>Telegram</a>
+        <a className="secondary" href="/"><ArrowRight/>На головну</a>
+      </div>
+    </main>
+  </div>
+}
 function App() {
   const [open, setOpen] = useState(false);
   const nav = [["Послуги", "#services"], ["Про адвоката", "#about"], ["YouTube", "#youtube"], ["Контакти", "#contacts"]];
