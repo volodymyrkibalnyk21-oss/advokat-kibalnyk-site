@@ -210,4 +210,10 @@ function App() {
   </div>
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+const path = window.location.pathname;
+
+createRoot(document.getElementById("root")).render(
+  path === "/viyskovyy-advokat"
+    ? <MilitaryPage />
+    : <App />
+);
