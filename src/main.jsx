@@ -202,7 +202,7 @@ function App() {
       <p>Було детально роз’яснено порядок дій щодо ТЦК, ВЛК та подання рапорту.</p>
     </article>
   </div>
-</section> <section id="youtube" className="section"><div className="youtube"><PlayCircle  size={52}/><h2>Канал «Захисти себе сам»</h2><p>Канал про те, як людині захистити себе, розуміти свої права, не боятися суду, поліції, ТЦК та органів влади, а також грамотно реагувати на незаконні дії.</p><a href="https://www.youtube.com/" target="_blank">Перейти на YouTube <ArrowRight size={18}/></a></div></section>
+</section> <section id="youtube" className="section"><div className="youtube"><PlayCircle  size={52}/><h2>Канал «Захисти себе сам»</h2><p>Канал про те, як людині захистити себе, розуміти свої права, не боятися суду, поліції, ТЦК та органів влади, а також грамотно реагувати на незаконні дії.</p><a href="https://www.youtube.com/@VolodymyrKibalnyk" target="_blank" rel="noreferrer">Перейти на YouTube <ArrowRight size={18}/></a></div></section>
 
       <section id="contacts" className="contacts"><div><p className="over">Контакти</p><h2>Звернутися по правову допомогу</h2><p>Опишіть ситуацію коротко: хто звертається, яка справа, який суд або орган, які документи є, який результат потрібен.</p></div><div className="contactList"><a href="tel:+380682307757"><Phone/> <span><small>Телефон</small><b>068 230 77 57</b></span></a><a href="mailto:kibalnykvova@gmail.com"><Mail/> <span><small>E-mail</small><b>kibalnykvova@gmail.com</b></span></a><div><MapPin/> <span><small>Робоче місце адвоката</small><b>Волинська область, Володимирський район, с. Заріччя</b></span></div><a href="https://t.me/" target="_blank"><MessageCircle/> <span><small>Telegram</small><b>Написати повідомлення</b></span></a></div></section>
     </main>
